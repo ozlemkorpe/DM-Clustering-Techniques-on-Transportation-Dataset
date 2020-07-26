@@ -2,10 +2,10 @@
 Data mining project applied on Antalya bus dataset.
 
 ## Columns
+- **Linename**: Name of the bus line. 
+- **Lineid**: Unique ID's of lines.
 - **Route**: Name of the bus route.
 - **Routeid**: ID of the bus route. Each route has unique ID.
-- **Linename**: Name of the bus line. Each route have two line which also can be thougth as directions. It can be go one direction or returning back from opposite. Each of these lines have different linenames.
-- **Lineid**: Unique ID's of lines.
 - **Stopname**: Name of the bus stop.
 - **Stopid**: Unique ID of bus stop.
 - **StopSequence**: Visit sequence of the bus for each stop.

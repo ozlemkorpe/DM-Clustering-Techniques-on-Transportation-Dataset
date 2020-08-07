@@ -11,6 +11,142 @@
                 "exectime": 57,
                 "nrcreated": 0,
                 "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distance.measure.string.StringDistanceNodeFactory#String Distances",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 21,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 144,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distance.measure.jsnippet.aggregated.AggregatedDistanceNodeFactory#Aggregated Distance",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 956,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distmatrix.similaritysearch.SimilaritySearchNodeFactory#Similarity Search",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1819,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 285,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 8,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 31,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distance.measure.numerical.NumericalDistanceNodeFactory#Numeric Distances",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 611,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilter2PortNodeFactory#Row Splitter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 3,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 15,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "ws.palladian.nodes.extraction.location.GoogleAddressGeocoderNodeFactory#Google Address Geocoder",
+                "nrexecs": 0,
+                "nrfails": 1,
+                "exectime": 118,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.cluster.hierarchical.HierarchicalClusterNodeFactory#Hierarchical Clustering",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 125603,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.util.timerinfo.TimerinfoNodeFactory#Timer Info",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.line.LinePlotterNodeFactory#Line Plot (local)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.pie.node.fixed.FixedPieNodeFactory#Pie chart (local)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 310,
+                "nrcreated": 0,
+                "successor": "n/a"
             }
         ],
         "metaNodes": {
@@ -18,14 +154,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 136453,
-    "workflowsOpened": 1,
+    "uptime": 664102,
+    "workflowsOpened": 2,
     "remoteWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 136453,
+    "timeSinceLastStart": 664102,
     "crashes": 0,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }

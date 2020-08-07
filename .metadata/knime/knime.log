@@ -1,0 +1,46 @@
+2020-08-07 15:15:09,544 : WARN  : ModalContext :  : Node : File Reader : 0:1 : The file 'file:/C:/Users/Asus/Desktop/ButunlemeTransportationData.txt' can't be accessed anymore!
+2020-08-07 15:16:13,157 : WARN  : main :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:13,157 : WARN  : main :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:13,211 : WARN  : main :  : Node : Color Manager : 0:59 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:13,212 : WARN  : main :  : Node : Color Manager : 0:51 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:13,214 : WARN  : main :  : Node : Scatter Plot (local) : 0:48 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2020-08-07 15:16:13,217 : WARN  : main :  : Node : Color Manager : 0:78 : Column "Name" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:13,218 : WARN  : main :  : Node : Line Plot (local) : 0:74 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2020-08-07 15:16:14,606 : WARN  : main :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:14,606 : WARN  : main :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:14,608 : WARN  : main :  : Node : Color Manager : 0:59 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:14,609 : WARN  : main :  : Node : Color Manager : 0:51 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:14,609 : WARN  : main :  : Node : Scatter Plot (local) : 0:48 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2020-08-07 15:16:14,610 : WARN  : main :  : Node : Color Manager : 0:78 : Column "Name" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:14,610 : WARN  : main :  : Node : Line Plot (local) : 0:74 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2020-08-07 15:16:21,139 : WARN  : KNIME-Worker-3-File Reader 0:1 :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:21,139 : WARN  : KNIME-Worker-3-File Reader 0:1 :  : Node : GroupBy : 0:46 : No aggregation column defined
+2020-08-07 15:16:21,142 : WARN  : KNIME-Worker-3-File Reader 0:1 :  : Node : Color Manager : 0:59 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:21,144 : WARN  : KNIME-Worker-3-File Reader 0:1 :  : Node : Color Manager : 0:51 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:21,144 : WARN  : KNIME-Worker-3-File Reader 0:1 :  : Node : Scatter Plot (local) : 0:48 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2020-08-07 15:16:23,939 : WARN  : KNIME-Worker-4-Similarity Search 0:45 :  : Node : Color Manager : 0:59 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:23,940 : WARN  : KNIME-Worker-4-Similarity Search 0:45 :  : Node : Color Manager : 0:51 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2020-08-07 15:16:23,940 : WARN  : KNIME-Worker-4-Similarity Search 0:45 :  : Node : Scatter Plot (local) : 0:48 : Some columns are ignored: too many/missing nominal values.
+2020-08-07 15:16:24,234 : WARN  : KNIME-Worker-3-Color Manager 0:49 :  : Node : Scatter Plot (local) : 0:48 : Some columns are ignored: too many/missing nominal values.
+2020-08-07 15:16:25,864 : WARN  : KNIME-Worker-19-DBSCAN 0:50 :  : Node : Scatter Plot (local) : 0:52 : Some columns are ignored: too many/missing nominal values.
+2020-08-07 15:16:25,865 : WARN  : KNIME-Worker-10-Color Manager 0:51 :  : Node : Scatter Plot (local) : 0:52 : Some columns are ignored: too many/missing nominal values.
+2020-08-07 15:16:29,248 : ERROR : KNIME-Worker-5-Google Address Geocoder 0:64 :  : Node : Google Address Geocoder : 0:64 : Execute failed: An apiKey must be given.
+java.lang.IllegalArgumentException: An apiKey must be given.
+	at org.apache.commons.lang3.Validate.notEmpty(Validate.java:401)
+	at ws.palladian.extraction.location.geocoder.GoogleGeocoder.<init>(GoogleGeocoder.java:55)
+	at ws.palladian.nodes.extraction.location.GoogleAddressGeocoderNodeFactory$1.createGeocoder(GoogleAddressGeocoderNodeFactory.java:23)
+	at ws.palladian.nodes.extraction.location.GeocoderNodeModel$1.getCell(GeocoderNodeModel.java:69)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:541)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:769)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:334)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:210)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2020-08-07 15:18:34,736 : WARN  : KNIME-Worker-14-Hierarchical Clustering 0:54 :  : Node : Scatter Plot (local) : 0:60 : Some columns are ignored: too many/missing nominal values.
+2020-08-07 15:18:34,737 : WARN  : KNIME-Worker-20-Color Manager 0:59 :  : Node : Scatter Plot (local) : 0:60 : Some columns are ignored: too many/missing nominal values.

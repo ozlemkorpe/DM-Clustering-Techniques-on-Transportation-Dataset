@@ -1,0 +1,31 @@
+
+{
+    "version": "4.1.1.v202002041125",
+    "created": "2020-08-07 15:14",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 57,
+                "nrcreated": 0,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 136453,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 136453,
+    "crashes": 0,
+    "properlyShutDown": false
+}

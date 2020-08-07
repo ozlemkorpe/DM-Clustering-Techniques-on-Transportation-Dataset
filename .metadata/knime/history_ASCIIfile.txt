@@ -1,0 +1,4 @@
+file:/D:/MyDocs/GitRepos/Data-Mining-Project-for-Bus-Dataset/TransportationData.txt
+D:\MyDocs\GitRepos\Data-Mining-Project-for-Bus-Dataset\TransportationData.txt
+file:/C:/Users/Asus/Desktop/ButunlemeTransportationData.txt
+knime://knime.workflow/data.all

@@ -1,4 +1,4 @@
-# Data-Mining-Project-for-Bus-Dataset
+# DM-Clustering-Techniques-on-Transportation-Dataset
 Data mining project applied on Antalya bus dataset.
 
 ## Columns

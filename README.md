@@ -1,6 +1,8 @@
 # DM-Clustering-Techniques-on-Transportation-Dataset
 Data mining project applied on Antalya bus dataset.
 
+![Complete Workflow](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/complete-workflow.png)
+
 This project was built using [Knime](https://www.knime.com/).
 
 ## Columns
@@ -25,13 +27,16 @@ String distances are calculated for line and stopnames by using String Distances
 Clustering techniques are used for clustering bus routes with its similarity. Bus routes which passing by more common bus stops are accepted as similar.
 
 ### K-Means Clustering
+![K-Means Clustering Results](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/kmeans.png)
 
-![Kaggle result](https://github.com/ozlemkorpe/Titanic-Machine-Learning-from-Disaster-MATLAB/blob/master/images/kaggle.png)
 ### DB-Scan Clustering
+![DBScan Clustering Results](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/dbscan.png)
+
 ### Hierarchical Clustering
+![Hierarchical Clustering Results](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/hierarchical.png)
 
 ## Performance Evaluation
-
+![Time Performances](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/performancetime.png)
 ## Map Viewer
 
 

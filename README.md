@@ -1,5 +1,5 @@
 # DM-Clustering-Techniques-on-Transportation-Dataset
-Data mining project applied on Antalya bus dataset.
+Data mining clustering techniques; k-means, dbscan and hierarchical clustering are applied on Antalya bus transportation dataset.
 
 ![Complete Workflow](https://github.com/ozlemkorpe/DM-Clustering-Techniques-on-Transportation-Dataset/blob/master/screenshots/complete-workflow.png)
 

@@ -25,6 +25,8 @@ String distances are calculated for line and stopnames by using String Distances
 Clustering techniques are used for clustering bus routes with its similarity. Bus routes which passing by more common bus stops are accepted as similar.
 
 ### K-Means Clustering
+
+![Kaggle result](https://github.com/ozlemkorpe/Titanic-Machine-Learning-from-Disaster-MATLAB/blob/master/images/kaggle.png)
 ### DB-Scan Clustering
 ### Hierarchical Clustering
 

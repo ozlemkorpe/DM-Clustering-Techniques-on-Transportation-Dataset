@@ -1,6 +1,8 @@
 # DM-Clustering-Techniques-on-Transportation-Dataset
 Data mining project applied on Antalya bus dataset.
 
+This project was built using [Knime](https://www.knime.com/).
+
 ## Columns
 - **Linename**: Name of the bus line. 
 - **Lineid**: Unique ID's of lines.
@@ -12,6 +14,24 @@ Data mining project applied on Antalya bus dataset.
 
 ## Usage
 All files are excluded from Knime environment, they must be opened by using Knime. Necessary dataset can also be found in the Dataset folder and destination of the dataset must be reconfigured in file reader node.
+
+## Grouping Operations
+GroupBy node is used for grouping bus routes with count of bus stops it passing by, finding possible bus stations by grouping bus stops by its stop sequences, finding most and least used bus stops.
+
+## Similarity Search
+String distances are calculated for line and stopnames by using String Distances node and aggregated by using Aggregated Distance node. By using Similarity Search node, similar row analyzed.
+
+## Clustering Techniques
+Clustering techniques are used for clustering bus routes with its similarity. Bus routes which passing by more common bus stops are accepted as similar.
+
+### K-Means Clustering
+### DB-Scan Clustering
+### Hierarchical Clustering
+
+## Performance Evaluation
+
+## Map Viewer
+
 
 ## Authors
 * **Özlem Körpe** - *Initial work* - [ozlemkorpe](https://github.com/ozlemkorpe)
